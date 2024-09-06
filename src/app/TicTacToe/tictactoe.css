@@ -1,0 +1,47 @@
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.board-container{
+text-align: center;
+font:bold ;
+justify-items: center;
+font-size: x-large;
+
+
+
+}
+.square{
+
+    border: 2px solid rgb(6, 79, 79) ;
+        
+    height:100px;
+    width:100px;
+    display:flex;
+    background-color: rgb(96, 3, 96);
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    
+}
+
+
+
+.play-again{
+    width: 250px;
+    height: 100px;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    border-radius: 50px;
+    background: grey;
+    font-size: 26px;
+    color:rgb(7, 2, 11);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+
+}
